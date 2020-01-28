@@ -2,4 +2,4 @@ permalink: pretty;
 theme: "jekyll_patternbot"
 
 patternbot:
-  font_url: <link rel="stylesheet" href="https://use.typekit.net/ozz7mke.css">
+  font_url: "https://use.typekit.net/ozz7mke.css"
