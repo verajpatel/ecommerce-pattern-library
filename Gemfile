@@ -9,4 +9,5 @@ gem "jekyll"
 group :jekyll_plugins do
   gem "jekyll_patternbot"
 end
+
 # gem "rails"

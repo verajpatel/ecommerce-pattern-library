@@ -1,13 +1,15 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-primary: #bdc3b7;
+  --color-primary-dark: #45514b;
+  --color-secondary: #fcec54;
+  --color-secondary-accent: #fca42c;
+  --color-background: #d0cccc;
+  --color-other: #60bc44;
+  --color-other-2: #04bcfc;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
+  --font-primary: "Zeitung", sans-serif;
+  --font-secondary: "Textbook New", sans-serif;
+  --font-body: "Study", serif;
 }
 
 html {
