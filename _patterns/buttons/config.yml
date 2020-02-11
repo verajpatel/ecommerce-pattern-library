@@ -1,0 +1,23 @@
+title: "Buttons"
+description: |
+  Buttons should be used where a dramatic, obvious reaction is required. Try not to over use buttons, because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      This is the default to using the basic button. This type of button is used with light backgrounds.
+    width: "12em"
+  ghost:
+    title: "Ghost"
+    description: |
+      This type of button is specifically made for banners, where it will be placed in front of busy images.
+  sign-in:
+    title: "Sign In"
+    description: |
+      These buttons are used to sign in and sign off your account.
+
+  numericals:
+    title: "Numericals"
+    description: |
+      Numerical buttons to add and subrtract values.
