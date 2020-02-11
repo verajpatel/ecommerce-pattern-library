@@ -6,6 +6,10 @@
   --color-background: #d0cccc;
   --color-other: #60bc44;
   --color-other-2: #04bcfc;
+  --color-other-3: #f0cf97;
+  --color-other-4: #d6a669;
+  --color-other-5: #73645a;
+  --color-other-6: #432b25;
 
   --font-primary: "Zeitung", sans-serif;
   --font-secondary: "Textbook New", sans-serif;
@@ -14,4 +18,52 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  Eggheads
+}
+
+h2 {
+  Crack Open a Cold One
+  See What's In Our Basket
+  Wanna Get In Touch With Us?
+  Want More Egg-Celent Information About Us?
+}
+
+h3 {
+  Loren Ipsum text
+}
+
+ul {
+  Home
+  Products
+  Check Out
+  Product Info
+  Contact
+  About Us
+}
+
+ol {
+  Chosen Item 1
+  Chosen Item 2
+  Chosen Item 3
+}
+
+dl {
+  Chicken Egg
+  Duck Egg
+  Ostrich Egg
+  Pheasant Egg
+  Emu Egg
+  Quail Egg
+  Goose Egg
+  Turkey Egg
+}
+
+p {
+  -Explanation of call-to-banners
+  -Explanation of products in list
+  -Explanation of this website and what we sell
+  -Terms and Services.
 }
