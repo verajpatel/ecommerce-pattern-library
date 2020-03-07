@@ -1,15 +1,16 @@
 :root {
-  --color-primary: #bdc3b7;
+  --color-primary: #d0cccc;
   --color-primary-dark: #45514b;
   --color-secondary: #fcec54;
   --color-secondary-accent: #fca42c;
-  --color-background: #d0cccc;
+  --color-background: #bdc3b7;
   --color-other: #60bc44;
   --color-other-2: #04bcfc;
   --color-other-3: #f0cf97;
   --color-other-4: #d6a669;
   --color-other-5: #73645a;
   --color-other-6: #432b25;
+  --color-black: #000;
 
   --font-primary: "Zeitung", sans-serif;
   --font-secondary: "Textbook New", sans-serif;
@@ -21,49 +22,48 @@ html {
 }
 
 h1 {
-  Eggheads
+  color: var(--color-other-6)
 }
 
 h2 {
-  Crack Open a Cold One
-  See What's In Our Basket
-  Wanna Get In Touch With Us?
-  Want More Egg-Celent Information About Us?
+  color: var(--color-other-5)
 }
 
 h3 {
-  Loren Ipsum text
+  color: var(--color-other-4)
+}
+
+h4 {
+  color: var(--color-other-3)
+}
+
+a {
+  color: var(--color-other)
 }
 
 ul {
-  Home
-  Products
-  Check Out
-  Product Info
-  Contact
-  About Us
+  color: var(--color-primary-dark)
 }
 
 ol {
-  Chosen Item 1
-  Chosen Item 2
-  Chosen Item 3
+  color: var(--color-primary-dark)
 }
 
 dl {
-  Chicken Egg
-  Duck Egg
-  Ostrich Egg
-  Pheasant Egg
-  Emu Egg
-  Quail Egg
-  Goose Egg
-  Turkey Egg
+  color: var(--color-primary-dark)
+}
+
+li {
+  color: var(--color-primary)
 }
 
 p {
-  -Explanation of call-to-banners
-  -Explanation of products in list
-  -Explanation of this website and what we sell
-  -Terms and Services.
+  color: var(--color-black)
+}
+
+blockquote p {
+  color: var(--color-secondary-accent)
+}
+blockquote {
+  color: var(--color-secondary)
 }
