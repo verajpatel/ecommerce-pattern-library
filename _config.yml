@@ -12,14 +12,24 @@ patternbot:
     patterns:
       brand.logos: "--color-secondary-accent"
 
-  rationales:
-    typefaces.primary: Zeitung is used as a primary header page font. This font has a weight that is not considered thin, but not considered thick and bold as well.
-    typefaces.secondary: Textbook New is a sans-serif font used as a secondary header font. Textbook New is used for more thicker, more defined information that wants to catch the eye of viewers.
-    typefaces.body: Study is a serif-font used as body copy for the website. Like the name, this font is used to read and study information about the product.
-    colors.primary: The primary colors represent the words and the background itself. Instead of it being colorful, it's more a cool, neutral that's eye-pleasing for everybody.
-    colors.primary-dark: The second primary color. This is mainly use to contradict bright backgrounds instead of the first primary color.
-    colors.secondary: The secondary color is a bright yellow. This is considered to be related to either yolk, or a sunrise.
-    colors.secondary-accent: This is the accent of the secondary color. This is related to the yolk and sunrises, as they are both somewhat orange.
-    colors.background: This is the background of the website. Instead of it as a bright color that shines, it's a cool gray that is eye pleasing, allowing the images to pop more forward.
-    colors.other: This is a color that is considered to be other. The green is considered to be related to the grass, or the fields, or the dollar bill.
-    colors.other-2: This is another color that is considered to be other. The blue is related to the bright sky, but as well as water. This is a color that can be in conjunction or nearby with the title.
+      rationales:
+        typefaces.primary: Zeitung is used as a primary header page font. This font has a weight that is not considered thin, but not considered thick and bold as well.
+        typefaces.secondary: Textbook New is a sans-serif font used as a secondary header font. Textbook New is used for more thicker, more defined information that wants to catch the eye of viewers.
+        typefaces.body: Study is a serif-font used as body copy for the website. Like the name, this font is used to read and study information about the product.
+        colors.primary: The primary colors represent the words and the background itself. Instead of it being colorful, it's more a cool, neutral that's eye-pleasing for everybody.
+        colors.primary-dark: The second primary color. This is mainly use to contradict bright backgrounds instead of the first primary color.
+        colors.secondary: The secondary color is a bright yellow. This is considered to be related to either yolk, or a sunrise.
+        colors.secondary-accent: This is the accent of the secondary color. This is related to the yolk and sunrises, as they are both somewhat orange.
+        colors.background: This is the background of the website. Instead of it as a bright color that shines, it's a cool gray that is eye pleasing, allowing the images to pop more forward.
+        colors.other: This is a color that is considered to be other. The green is considered to be related to the grass, or the fields, or the dollar bill.
+        colors.other-2: This is another color that is considered to be other. The blue is related to the bright sky, but as well as water. This is a color that can be in conjunction or nearby with the title.
+
+        collections:
+          products:
+            output: true
+
+            defaults:
+              - scope:
+                path: _products
+                values:
+                  layout: product
