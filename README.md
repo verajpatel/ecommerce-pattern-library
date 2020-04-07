@@ -51,6 +51,6 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 To view the website on Netlify, you can visit the website domain at: [https://thirsty-shockley-543bcd.netlify.com/pattern-library/#brand] (https://thirsty-shockley-543bcd.netlify.com/pattern-library/#brand)
 
-##Copyright Notice
+## Copyright Notice
 
 The website is used for learning purposes only, instead of creating an actual website. All images and icons used, alongside the logo, belong to the appropriate users. Forking and cloning the website, and changing the code for your own purposes is prohibited.
