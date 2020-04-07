@@ -1,0 +1,17 @@
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Filed with Yolk-on Gold."
+      - name: text
+        type: string
+        example: "So many eggs that can be used to breed your own eggs or used for cooking."
+      - name: button_text
+        type: string
+        example: "See list of eggs"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products-list/"
+        required: false

@@ -1,8 +1,8 @@
 <ul class="nav">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Products</a></li>
-  <li><a href="#">Products Info</a></li>
-  <li><a href="#">Contact</a></li>
-  <li><a href="#">About Us</a></li>
-  <li><a href="#">Check Out</a></li>
+  <li class="gutter-1-2 current {% if page.highlight_nav == 'Home'%}current{% endif %}"><a href="/Home">Home</a></li>
+  <li class="gutter-1-2 {% if page.highlight_nav == 'Products'%}current{% endif %}"><a href="#">Products</a></li>
+  <li class="gutter-1-2 {% if page.highlight_nav == 'Products Info'%}current{% endif %}"><a href="#">Products Info</a></li>
+  <li class="gutter-1-2 {% if page.highlight_nav == 'Contact'%}current{% endif %}"><a href="#">Contact</a></li>
+  <li class="gutter-1-2 {% if page.highlight_nav == 'About Us'%}current{% endif %}"><a href="#">About Us</a></li>
+  <li class="gutter-1-2 {% if page.highlight_nav == 'Check Out'%}current{% endif %}"><a href="#">Check Out</a></li>
 </ul>

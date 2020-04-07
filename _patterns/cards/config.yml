@@ -3,10 +3,9 @@ patterns:
     width: 400
     description: |
     The product card is used on the product listing page to display every product avaliable on the website.
-
     fields:
       - name: data
-      type: product
+      type: object
       data:
         source: "site.products[0]"
         type: Product

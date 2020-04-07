@@ -6,6 +6,14 @@ patternbot:
   description: The world is your oyster, and so is having a bunch of eggs from different species. Explore what you can do with multiple different eggs, ranging from cooking, to having an ostrich as a pet.
   font_url: "https://use.typekit.net/ozz7mke.css"
 
+  layouts:
+    default: |
+      The default page for every page on the website. This involves the primary header and footer.
+    index: |
+      The index file for the header and footer layout.
+    default: |
+      Th
+
   colors:
     background: "--color-background"
     accent: "--color-primary-dark"
