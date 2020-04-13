@@ -5,7 +5,7 @@ patterns:
       The product card is used on the product listing page to display every product avaliable on the website.
     fields:
       - name: data
-        type: object
+          type: object
         data:
           source: "site.products[0]"
           type: Product
