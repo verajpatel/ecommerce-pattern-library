@@ -8,22 +8,22 @@ patterns:
     description: |
     Change your profile picture on your account after signing in, or add a different email.
     social media icons:
-      title: "Social Media Icons"
-      description: |
-      The social media icons that the website have accounts on. Like and follow if you are interested.
-      menu:
-        title: "Menu"
-        description: |
-        These are the options that you can move from by checking the hamburger menu.
-        sign in:
-          title: "Sign In"
-          description: |
-          These are the buttons that help you make an account. After making an account, you can click them to sign in, log out, or you can make a new account.
-          banner:
-            title: "Banner"
-            description: |
-            This is the call-to-banner for the first page of the website, or the primary menu for the entire website.
-            icons:
-              title: "Icons"
-              description: |
-              The logo icons for the header in color and black and white, as well as the hamburger menu and account icon.
+    title: "Social Media Icons"
+    description: |
+    The social media icons that the website have accounts on. Like and follow if you are interested.
+    menu:
+    title: "Menu"
+    description: |
+    These are the options that you can move from by checking the hamburger menu.
+    sign in:
+    title: "Sign In"
+    description: |
+    These are the buttons that help you make an account. After making an account, you can click them to sign in, log out, or you can make a new account.
+    banner:
+    title: "Banner"
+    description: |
+    This is the call-to-banner for the first page of the website, or the primary menu for the entire website.
+    icons:
+    title: "Icons"
+    description: |
+    The logo icons for the header in color and black and white, as well as the hamburger menu and account icon.
