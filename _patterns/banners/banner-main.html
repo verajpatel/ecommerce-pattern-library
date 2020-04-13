@@ -3,7 +3,7 @@
     <h1 class="banner-title zetta push-1-4">{{include.heading}}</h1>
     <p class="banner-info peta max-length-no-center">{{include.text}}</p>
     {% if include.button_url %}
-      {% pattern buttons/light url="include.button_url text=include.button_text %}
+      {% pattern buttons/light url=include.button_url text=include.button_text %}
     {% endif %}
   </div>
   <i class="banner-icon icon i-64 pin-rb"><svg><use xlink:href="/images/icons"#{{include.icon}}></use></svg></i>

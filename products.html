@@ -3,12 +3,6 @@ layout: default
 highlight_nav: Home
 ---
 
-{% pattern cards/banner-1 %}
-
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
-
 {% for product in site.products %}
 {% pattern cards/product-card data=product %}
 {% endfor %}
