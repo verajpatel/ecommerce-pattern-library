@@ -9,8 +9,3 @@ colors:
 - "White"
 - "Yellow"
 shape: "Oval"
-
-
-title: "product"
-desc: "Description of item"
-cost: 000
