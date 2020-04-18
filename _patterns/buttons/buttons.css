@@ -30,6 +30,12 @@
   color: #fff;
 }
 
+.btn-primary {
+  background-color: var(--color-other-3);
+  border-color: var(--color-other-3);
+  color: #000;
+}
+
 .btn-sign-in:hover {
   background-color: #d9d9d9;
   border-color: #d9d9d9;
@@ -43,4 +49,10 @@
 .btn-ghost:hover {
   background-color: #e6e6e6;
   color: #000;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-other-4);
+  border-color: var(--color-other-4));
+  color: #e6e6e6;
 }

@@ -21,3 +21,8 @@ patterns:
     title: "Numericals"
     description: |
       Numerical buttons to add and subrtract values.
+
+  numericals:
+    title: "Primary"
+    description: |
+      The primary button to view information about the egg.
